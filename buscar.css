@@ -1,0 +1,84 @@
+:root {
+    /* Colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C; 
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF; 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(228deg, #201E1C 11.19%, #F7931A 100%);
+}
+header a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--off-white);
+   margin: 80;
+    padding: 80;
+
+}
+.container {
+
+max-width: 500px;
+margin: 0 auto;
+padding: 50px;
+background-color: white;
+box-shadow: 0 5px 10px rgba(255, 192, 203, 0.1);
+text-align: center;
+}
+
+.result {
+font-size: 18px;
+margin-top: 20px;
+}
+
+.footer {
+margin-top: 25px;
+text-align: center;
+color: #999;
+}
+.btnLink {
+display: inline-block;
+margin: 10px 10px;
+padding: 10px 20px;
+background-color: var(--grey);
+color: black;
+text-decoration: none;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+position: static;
+}
+
+.btnLink:hover {
+background-color: var(--bitcoin-orange);
+}

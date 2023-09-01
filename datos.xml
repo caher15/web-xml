@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usuarios>
+	<usuario>
+		<nombre sexo="femenino">Pepita</nombre>
+		<edad>22</edad>
+		<fecha-nacimiento m="11" d="10" a="1999">Noviembre 10, 1999</fecha-nacimiento>
+	</usuario>
+	<usuario>
+		<nombre sexo="masculino">chris</nombre>
+		<edad>30</edad>
+		<fecha-nacimiento m="01" d="12" a="2004">Enero 12, 2004</fecha-nacimiento>
+	</usuario>
+</usuarios>
